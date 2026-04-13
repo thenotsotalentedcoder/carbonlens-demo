@@ -1,0 +1,1047 @@
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+Available online 8 May 2023
+2772-3909/© 2023 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+The Aga Khan Development Network’s (AKDN) approach to supply chain 
+carbon foot printing for healthcare providers 
+Jerome Baddley a,*, Fawzia N. Rasheed b 
+a Aga Khan Health Services, Geneva Switzerland 
+b Aga Khan Development Network, Geneva, Switzerland   
+A R T I C L E  I N F O   
+Keywords: 
+Carbon footprint 
+Supply chain 
+Low and middle-income countries 
+Net zero 
+Healthcare 
+Greenhouse gases 
+A B S T R A C T   
+Very few examples of footprints exist for lower-middle-income countries and none for low-income countries. 
+Where footprints do exist, they suggest that healthcare in LMICs is more carbon intensive per unit of expenditure 
+than in high-income or upper-middle-income countries. At the same time, delivery of global commitments on 
+Universal Health Coverage implies that healthcare provision in low and middle-income countries (LMICs) must 
+grow more rapidly than anywhere else in the word. 
+There has been little or no access to appropriate, comprehensive but affordable support to enable operations in 
+LMICs to calculate full Scope 1,2 and 3 footprints. Without this it has been challenging for operations in LMICs to 
+effectively target actions to reduce their emissions. 
+With this in mind this paper sets out to demonstrate an approach to carbon foot printing healthcare in LMICs 
+that is sufficiently robust to support targeted action, while using tools, resources and data that are freely 
+accessible in all countries. 
+This paper describes and discusses a 4-tiered ‘hybrid’ approach, developed using the international Greenhouse 
+Gas Protocol. The approach was used successfully by staff to generate carbon footprints for healthcare organi­
+sations in 8 LMICs in South and Central Asia and East Africa. The organisations covered all fall within the Aga 
+Khan Development Network (AKDN); specifically, the Aga Khan Health Services (AKHS) and the Aga Khan 
+Universities (AKU) 
+The principles discussed in this paper, have been used to build a comprehensive carbon management tool in 
+Microsoft Excel. The use of the approach and the tool has enabled AKDN healthcare providers to effectively, 
+baseline, target and structure their carbon reduction activity. 
+This work has had to pragmatically balance accuracy with deliverability in an LMIC context. While foot­
+printing for Scope 1 and 2 has followed standard protocols, proxy data has been used to generate high level 
+supply chain footprints, this has then been refined with data from suppliers. 
+The tool and its accompanying guide are published and available, free to use, from AKDN to support other 
+healthcare organisations in footprinting and reducing their own carbon emissions.   
+1. Introduction 
+This paper describes the approach taken to generate a full carbon 
+footprint, including supply chain, for 2 healthcare providers of the Aga 
+Khan Development Network (AKDN), Aga Khan Health Services (AKHS) 
+and Aga Khan Universities (AKU). 
+The 2 organisations provide primary, secondary, tertiary, and qua­
+ternary healthcare across 8 low and middle-income countries (LMICs) in 
+South and Central Asia and East Africa. AKDN services are largely 
+weighted towards primary care in most regions, though with substantial 
+hospital services in Pakistan. Together the health operations of the 
+AKDN run 740 health facilities and 22 hospitals. 
+As the first step towards achieving the AKDN-wide commitment to 
+Net Zero carbon operations by 2030 (AKDN, 2022), both agencies aimed 
+to produce a comprehensive carbon baseline. 
+1.1. Current understanding of the carbon footprint of healthcare 
+In recent years at least three publications have calculated figures for 
+the global carbon footprint of healthcare (Lenzen et al., 2020; Arup and 
+* Corresponding author. 
+E-mail address: baddleyjerome@gmail.com (J. Baddley).  
+Contents lists available at ScienceDirect 
+Cleaner Logistics and Supply Chain 
+journal homepage: www.journals.elsevier.com/cleaner-logistics-and-supply-chain 
+https://doi.org/10.1016/j.clscn.2023.100109 
+Received 13 November 2022; Received in revised form 26 March 2023; Accepted 3 May 2023   
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+2
+HCWH, 2019; Pichler et al., 2019). These papers each highlighted that 
+healthcare contributes 4–5% of global greenhouse gas emissions. 
+In addition to these studies, several papers have been published 
+providing carbon footprints for individual national healthcare systems, 
+including Japan (Nansai et al., 2020), England (NHS England, 2020; 
+Tennison et al., 2021), US (Eckelman et al., 2020), Canada (Eckelman 
+et al., 2018), China (Wu, 2019), and Australia (Malik et al., 2018). 
+All three global papers and several of the national papers use vari­
+ations of the Extended Environmental Multi Region Input Output (EE- 
+MRIO) methodology. EE-MRIO methodologies track the flow of money 
+and associated carbon emissions between sectors and countries, 
+assigning country and sector specific greenhouse gas emissions in­
+tensities to units of economic activity. Carbon footprints are calculated 
+as a function of expenditure and these sector specific carbon intensity 
+multipliers. 
+Top-down EE-MRIO approaches can be contrasted with bottom-up 
+process-based approaches, where a footprint is built up, in high reso­
+lution, from actual resource use data and resource specific emissions 
+factors. 
+Hybrid methodologies, such as the one used by the NHS in England 
+(NHS England, 2020; Tennison et al., 2021), combine the 2 approaches, 
+with as much of the footprint as possible calculated bottom-up, using a 
+process-based approach. Remaining areas, often relating to the supply 
+chain, are then calculated from expenditure and EE-MRIO multipliers. 
+Malik, Lenzen, et al., 2018 includes an excellent description of process- 
+based vs EE-MRIO approaches (Malik, Lenzen et al., 2018). 
+It is encouraged as good practice by the international GHG Protocol 
+(WRI and WBCSD, 2013), that organisations refine the accuracy of their 
+supply chain emissions calculations, using carbon intensity data from 
+their actual suppliers. 
+To date, very few healthcare providers, in either LMICs or higher- 
+income countries, have published detailed supply chain footprints. 
+There are also no examples in the literature of healthcare supply chain 
+footprints that have gone beyond top-down EE-MRIO methods, to 
+deliver the granular level of detail encouraged by GHG protocol 
+guidance. 
+The current published literature focusses on high-income and upper- 
+middle-income countries (Fig. 1). Healthcare in LMICs has received far 
+less attention. To date it would appear that country level footprints for 
+healthcare in low-income countries remains unrepresented in the pub­
+lished literature. 
+The focus on wealthier countries is understandable, given their 
+larger current and historical contribution to global emissions. It is also 
+intuitive to expect higher relative contributions of emissions per capita 
+for healthcare in wealthier countries, given higher per capita spending 
+on healthcare, larger numbers of hospital beds and facilities. However, 
+using data derived from the available literature, (Rasheed et al., 2021) 
+the carbon intensity per US$ for healthcare in LMICs seems substantially 
+higher than in high-income countries (HICs.) (Table 1). 
+Over the next 15 years, spending on healthcare in LMICs is expected 
+to grow rapidly, not least as a result of efforts to meet targets for Uni­
+versal Health Coverage (UHC). If services in LMICs grow without in­
+vestment in reducing carbon intensity, growth could add substantially to 
+global carbon emissions. Based on projections for spending on UHC 
+alone, which, positioned around primary health care delivery, repre­
+sents a fraction of spending on healthcare in LMICs, such investments 
+could add over 16% to the global carbon footprint of healthcare 
+(Rasheed et al., 2021). 
+Healthcare providers in LMICs also share much of their supply chain 
+with those in higher-income countries. 
+AKDN’s health operations span 8 LMICs, three of these countries had 
+high level EE-MRIO footprints covered in the published literature (India, 
+(Pichler et al., 2019; Lenzen et al., 2020) (Arup and HCWH, 2019) 
+Kenya, and Kyrgyzstan (Lenzen et al., 2020)). Footprints for healthcare 
+in Afghanistan, Pakistan, Tajikistan, Tanzania, and Syria were not 
+covered in any of the published literature. 
+1.2. Aims of this paper 
+The wider aim of this paper is to support a greater engagement in 
+Greenhouse Gas (GHG) management from healthcare organisations in 
+LMICs. Firstly, by addressing the absence in the literature of any detailed 
+footprinting work for healthcare from LMICs and LICs. Secondly, by 
+demonstrating a pragmatic and replicable approach that has been taken 
+to generate carbon footprints by the healthcare operations of AKDN. 
+This paper also seeks to demonstrate the value of refining the supply 
+chain footprint for healthcare organisations with emissions data from 
+individual suppliers. 
+It is intended that the findings of this work and the footprinting tool 
+created should be of practical use to other healthcare providers in LMICs 
+and higher-income countries alike. 
+The approach detailed in this paper follows the standard methodol­
+ogy set down by the international GHG Protocol, with emissions cat­
+egorised by Scopes (WRI and WBCSD, 2004).  
+• Scope 1: Direct GHG emissions  
+• Scope 2: Indirect GHG emissions from electricity and heat networks  
+• Scope 3: All other indirect GHG emissions. Typically, these are 
+emissions arising upstream in the supply chain, or downstream with 
+customers or product end of life. 
+Both agencies, henceforth referred to as the health operations of the 
+AKDN, collaborated to produce as comprehensive a carbon footprint as 
+possible, across Scopes 1,2 and 3. A hybrid approach was used, 
+employing a combination of bottom-up and top-down methodologies. 
+Emissions calculations for the supply chain were refined further using 
+supplier specific carbon intensities, calculated from suppliers own 
+published data. 
+The healthcare operations of AKDN required 2 key outputs from this 
+work:  
+1. Identify emissions hotspots where action should be targeted. 
+2. Provide a sufficiently robust baseline which the impacts of in­
+terventions could be tracked against. 
+The approach to footprinting needed to cover all aspects of direct 
+operations, as well as the supply chain, which was expected to represent 
+a large part of the overall footprint. 
+Footprinting work covered operations in Afghanistan, India, Kenya, 
+Kyrgyzstan, Pakistan, Syria, Tanzania, and Tajikistan. While good data 
+on expenditure and resource use was available, comprehensive, 
+geographically specific carbon factor sets were not readily available for 
+Fig. 1. Coverage of the GHG emissions from healthcare in LMICs across three studies evaluating the global carbon footprint of healthcare.  
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+3
+these 8 countries. 
+In the absence of easily available EE-MRIO data for the countries 
+covered in this study, the methodology that the health operations of the 
+AKDN have developed uses EE-MRIO data from the UK as a proxy, 
+refining this with suppliers’ data where available. This paper covers:  
+• The methodology, rationale for, and limitations of this approach.  
+• Experience of using this approach in 8 LMICs.  
+• The transferability of this model to other healthcare providers. 
+The results compare the proportional splits for the carbon footprints 
+of several AKDN healthcare providers, identifying emissions hotspots. 
+Carbon intensity values per US$ expenditure for several healthcare op­
+erations are also compared at three increasingly refined levels of foot­
+print resolution. 
+2. Methods and materials 
+2.1. The AKDN approach to calculating carbon emissions of healthcare 
+operations. 
+In the absence of comprehensive sets of emissions factors and carbon 
+intensity data for the focus countries, an approach was developed to 
+allow the calculation of a sufficiently granular footprint. 
+To generate an initial ‘top-down’ footprint estimate for each opera­
+tion, high-level EE-MRIO carbon intensity data per US$ for the health­
+care sector in each country was sourced. Where this was not available, 
+regional, or income group averages were generated (Appendix G). 
+A more granular approximation of the supply chain footprint was 
+then established by applying EE-MRIO multipliers from the UK to AKDN 
+spending data. UK factors (University of Leeds, 2020) were aligned to 
+each operation’s financial accounting codes and averaged to produce 
+approximate carbon intensities for each code (Appendix C and D). These 
+factors were then applied to each operation’s expenditure data against 
+each of the codes. This stage was used to identify supply chain emissions 
+hotspots. A similar approach has been used in the UK for more than 10 
+years in the annual calculation of the carbon footprint of the NHS in 
+England (Tennison et al., 2021). 
+Concerted effort was then applied to improve the accuracy and 
+granularity of emissions data in hotspot areas, by swapping out spend 
+and carbon data with data for spend and emissions intensities from in­
+dividual suppliers. This started with the largest suppliers and amounts 
+spent. Carbon intensity data were secured for the largest suppliers in 
+each hotspot area. This data was expressed in the form of Kgs of CO2 
+equivalent (KgCO2e) for Scopes 1,2 and 3 per US$ revenue. 
+Both annual revenue and annual carbon footprint data are generally 
+available for larger suppliers (See Appendix F). As such, calculations of 
+emissions arising from amounts spent with these suppliers was based on 
+their own published data. As suppliers often report their emissions using 
+slightly different boundaries and completeness, especially at Scope 3, 
+effort was applied to ensure that our calculated suppliers emissions in­
+tensities were also fair and comparable (See Appendix E). 
+All Scope 1, 2 and non-supply chain Scope 3 emissions were 
+calculated using established GHG protocol footprinting methodologies 
+(WRI and WBCSD, 2004) and bottom-up data from healthcare opera­
+tions. Expenditure in these areas was excluded from EE-MRIO foot­
+printing to avoid double counting. 
+Using this approach, the footprint could be refined through 4 levels 
+or Tiers of data quality. Tier 4 represented the most accurate bottom-up 
+calculations covering all Scope 1 and 2 emissions and some Scope 3 
+emissions. Tier 1 represented the least accurate top-down estimates. An 
+outline is provided below with full details in Sections 2.2 to 2.5.  
+• Tier 1- Scoping. High level estimates for total footprint based on 
+regional average or national figures for health sector carbon intensity 
+by country.  
+• Tier 2-Hot-spotting/Screening. Supply chain emissions calculated 
+using UK consumption based GHG intensity (per US$) and AKDN 
+health operations spend, grouped by categories.  
+• Tier 3-Hybrid top-down/bottom-up foot printing. Supply chain 
+emissions calculated using suppliers own data as carbon intensities 
+per US$ and AKDN spend with each supplier.  
+• Tier 4 -bottom-up foot printing. Scope 1, 2 and some Scope 3. 
+Product specific GHG emissions for some individual high carbon 
+products. 
+The aim throughout was to generate a hybrid footprint that used the 
+highest quality (Highest Tier) data possible at each point, with lower 
+Tier data used to fill any remaining gaps. 
+This methodology allowed the generation of 3 footprints and 3 cor­
+responding carbon intensities per US$ expenditure for each 
+organisation.  
+1. Top-down, EE-MRIO only, based on national or regional average 
+intensity data (Tier 1)  
+2. Hybrid, EE-MRIO based on UK multipliers (Tier 2) plus bottom up 
+for resource use (Tier 4),  
+3. Refined hybrid, EE-MRIO based on UK multipliers (Tier 2) with 
+some supply chain footprint improved with suppliers own data (Tier 
+3) plus bottom up for resource use (Tier 4). 
+2.2. Tier 1- country specific data for healthcare carbon intensity 
+To support an initial scoping of each operations’ full carbon foot­
+print, covering all major GHGs (carbon dioxide, methane, nitrous 
+oxide), data from a paper by Manfred Lenzen (Lenzen et al., 2020) was 
+drawn upon. This paper provided high-level figures (multipliers) for 
+health sector GHG emissions intensities (KgCO2equivalent/US$) 
+generated using the EE-MRIO model. 
+Emissions were estimated for each of the health operations of the 
+AKDN, using total spend (i.e., including salaries, and all purchased 
+goods and services) multiplied by a healthcare sector carbon intensity 
+factor for each country from Lenzen’s paper. 
+Only three of the countries where AKDN delivers health services 
+(India, Kenya, and Kyrgyzstan) were represented in Lenzen’s data. To 
+address the lack of data for the other 5 countries, regional and income 
+group averages were developed from the available data (Appendix G). 
+Geographic ranges were selected to reflect WHO regions, economic 
+groups reflect World Bank income classifications. 
+This approach provided an initial ‘Top down’ footprint and carbon 
+intensity for each operation that could serve as a reference point to 
+compare results from our hybrid and refined hybrid footprints. 
+2.3. Tier 2- sector specific data 
+Generating more granular estimates for the supply chain footprints 
+for the health operations of the AKDN, required each operations’ spend 
+to be mapped to more granular consumption-based emissions factors or 
+multipliers for individual sectors. 
+Table 1 
+Healthcare sector emissions by country economic classification.  
+Income group 
+No of countries with 
+data 
+Average (range) CO2 intensity 
+(kgCO2e/$) 
+Low-income 
+0 
+No data 
+Lower-middle 
+income 
+7 
+1.44 (0.5–3.9) 
+Upper-middle 
+income 
+17 
+0.87 (0.23–2.08) 
+Low and middle- 
+income 
+24 
+1.03 (0.23–3.9) 
+High-income 
+37 
+0.38 (0.07–2.09)  
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+4
+While nationally specific industry sector level EE-MRIO factors exist 
+for the LMICs where AKHS and AKU work, they were not easily 
+obtainable. Sourcing or generating specific country-level multipliers 
+would have increased the effort, time and expenditure needed for this 
+work. As Tier-2-foot printing for AKDN was primarily intended to be 
+used for scoping and identifying emissions hotspots, a pragmatic 
+approach to the sourcing of factors was taken. 
+The most comprehensive publicly available source of consumption- 
+based multipliers for specific products and services was from the UK 
+Govt. Department for Food and Rural Affairs (DEFRA). We opted to 
+evaluate whether using the UK multipliers could be useful in generating 
+supply chain carbon hotspots for the health operations of the AKDN (see 
+limitations Section 5.2). 
+Footprinting using the UK DEFRA factors was achieved by mapping 
+60 AKHS/AKU financial accounting spend categories, to relevant factors 
+from the 312 UK consumption-based carbon factors for products and 
+services (University of Leeds, 2020)(see Appendix C for mapping grid). 
+Once all spend categories had been mapped, an average of all the 
+relevant UK DEFRA factors was generated for each of the spend cate­
+gories of the health operations of the AKDN. Average factors were then 
+converted from KgCO2e/£ to KgCO2e/US$ at a rate of $0.75 to £1 (See 
+Appendix D). 
+The calculated spend category factors were then built into AKDN’s 
+excel-based, carbon management tool. This was provided to AKDN 
+health staff in each of the 11 operations across 8 countries. Staff were 
+encouraged to enter spend data in US$ by spend category for each 
+operation. 
+The Tier 2 calculation provided an initial estimate of the scale and 
+the relative percentage of the total supply chain emissions within each 
+spend category. The resulting data was used to identify a list of high 
+priority (greater than5% of emissions) and medium priority (1–5% of 
+emissions) spend categories for each country. Engagement efforts to 
+improve data quality and reduce emissions could then be focussed on 
+products and suppliers within these areas. 
+At this point, to avoid double counting, spending categories such as 
+electricity or vehicle fuels, where a ‘bottom-up’ (Tier 4) calculation had 
+been possible, were excluded from the supply chain emissions 
+calculations. 
+2.4. Tier 3- supplier specific data 
+Following the identification of the major carbon hotspots in the 
+supply chain, effort was devoted to refining emissions calculations in 
+these areas. Emissions data calculated at Tier 2 by spend category, was 
+replaced with data derived from spend with specific suppliers. In­
+tensities were only generated for suppliers who provided full data for 
+their Scope 1, 2 and upstream Scope 3 emissions categories. Appendix E 
+provides the full methodology used to generate GHG intensities per US$ 
+revenue for suppliers. 
+For AKDN staff, a specific Tier 3 calculation function was embedded 
+into the AKDN carbon management tool. The tool was pre-populated 
+with the carbon intensity data for the identified suppliers 
+(Appendix F). Procurement teams entered their own spending data. 
+2.5. Tier 4 – Bottom-up, resource-specific data. 
+Tier 4 data was generated using a standard GHG protocol approach 
+for calculating Scope 1, 2 and some Scope 3 areas. Scope 1 included 
+operational use of fuels, refrigerants, and in-use emissions from anaes­
+thetic gases (Sevoflurane, Desflurane, Halothane, Isoflurane and Nitrous 
+Oxide). Scope 2 included electricity using (IEA, 2020) emissions factors. 
+Scope 3 areas included waste, contractor logistics and employee 
+business travel. 
+Consumption data was provided by country operations and appro­
+priate emissions factors selected either from DEFRA (DEFRA and DBEIS, 
+2021) or the IPPC Emissions Factors Database (IPCC, 2020). In some 
+cases, carbon factors were user modified in the tool to reflect local 
+biomass mix in fuels. 
+Country operations also provided the number and type of dispensed 
+inhalers. The carbon impact of inhalers at Tier 4 was limited to the 
+propellants that they contain. Where the propellant was unknown, the 
+most commonly used gas, HFA134a, was assumed. Where the weight of 
+propellant was unknown, and average propellant weight was used. 
+More detail on the carbon factors and approach used at Tier 4 can be 
+reviewed in the AKDN carbon footprinting tool and its associated 
+guidance (AKDN, 2021a,b). Carbon impacts from the manufacture of 
+refrigerants, inhalers and anaesthetics were picked up in Tier 2 and 3 
+supply chain factors. 
+3. Results 
+Most of the health operations of the AKDN were able to report data to 
+the Tier 2 level, with spending data in US$ provided against institutional 
+spend categories. All operations were able to report detailed Tier 4 data, 
+to calculate Scope 1,2 and some Scope 3 emissions. 
+The supply chain areas identified as hotspots through Tier 2 scoping 
+varied, this appeared to depend on the type of services provided by 
+operations. Across all the health operations of the AKDN several spend 
+categories stood out as hotspot areas (Fig. 2). 
+Generally, the footprint for operations was dominated by four spend 
+categories:  
+i. Medical and Surgical Supplies  
+ii. Lab Consumables, Chemical & Supplies  
+iii. Medical, Surgical Lab Equipment  
+iv. Pharmaceuticals 
+On average, emissions from these four areas made up 86% of each 
+organisation’s total footprint (Appendix H). Smaller contributions were 
+also notable from construction, food supplies, imaging supplies and es­
+tates equipment (MRO supplies). There was a higher contribution for 
+Medical Surgical and Lab equipment for the small AKHS operation in 
+Syria; at the time a largely field-based outreach program. 
+For the four clinical categories identified as carbon hotspots, the 65 
+largest suppliers (by AKDN health expenditure) were identified across 
+both agencies. Together these 65 suppliers represented 67% of the 
+estimated 2019 supply chain carbon footprint. 
+AKDN staff were able to source emissions data, for 22 of the largest 
+health care suppliers, directly from these companies’ websites 
+(Appendix F). For 21 of these companies, it was possible to generate 
+Scope 1 and 2 carbon intensities per US$ revenue. For 16 of these 
+companies, it was possible to generate reasonably comparable Scope 1,2 
+and 3 (including full value chain) carbon intensities (See Appendix E for 
+the detailed calculation methodology). 
+By Q3 2021, six of the nine AKHS operations were able to report 
+spending at the T3 level, with a proportion of spend allocated to specific 
+suppliers. Operations were able to map between 6% and 30% of their 
+spend to specific suppliers for whom carbon intensity data was available 
+(Appendix H). 
+Four of the nine AKHS operations also provided total turnover data 
+in US$ for 1 quarter. This allowed comparison of each operation’s 
+calculated carbon intensity across 3 levels of resolution: ‘Top-down’ (EE- 
+MRIO only), hybrid and refined hybrid. 
+Table 2 shows data for 1 quarter from these 4 AKHS operations. 
+Emissions intensity is based on total pay, and non-pay expenditure. 
+For Kenya a specific top-down EE-MRIO carbon intensity factor for 
+healthcare (0.446 KgCO2e/$) was available from Lenzen’s work. This 
+figure appeared to correlate fairly well with the 0.42KgCO2e/$ carbon 
+intensity figure, generated for Kisumu using our hybrid methodology. 
+There appeared to be less alignment between the top-down intensity 
+figure and ours for Mombasa (0.557 KgCO2e/$). 
+Once 21% of Kisumu’s spending had been footprinted using Kisumu 
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+5
+suppliers’ own emissions intensities, AKDN’s refined hybrid carbon in­
+tensity figure for Kisumu appeared to be 26% lower than suggested by 
+the top-down data. For Mombasa, once a similar 21% of spending had 
+been footprinted using suppliers’ own emissions intensities, AKDN’s 
+refined hybrid carbon intensity figure was only 0.77% higher than 
+suggested by the top-down data. 
+A similar trend was noted with Tanzania. The average country level 
+EE-MRIO carbon intensity factor for healthcare in Africa (0.787 
+KgCO2e/$) compared fairly well with the 0.773 KgCO2e/$ carbon in­
+tensity factor calculated using AKDNs hybrid methodology. However, 
+once 30% of spending had been footprinted using AKDN suppliers’ own 
+carbon intensity data, to generate the refined hybrid figure, the carbon 
+intensity for the healthcare operations of the AKDN in Tanzania 
+appeared 25% lower than suggested by the top-down EE-MRIO data. 
+A more significant divergence was evident between figures from 
+(Lenzen et al., 2020) and the figures generated by hybrid and refined 
+hybrid methodologies for the healthcare operations of the AKDN in 
+India. Lenzen’s carbon intensity for healthcare in India was reported as 
+3.935KgCO2e/$, while AKDN calculated figures under the hybrid 
+methodology showed 0.742KgCO2e/$. 
+Even partial refinement of AKDN health operations’ footprint cal­
+culations for supply chain emissions from Tier 2 to Tier 3, i.e., using 
+actual data from suppliers, generally resulted in a reduction in emissions 
+intensity. This can be seen by comparing the values in Table 2 for hybrid 
+and refined hybrid. In Tanzania for example, after allocation of 30% of 
+the spend to specific suppliers, the carbon intensity fell by 24% (from 
+0.773KgCO2e/$, to 0.586KgCO2e/$). The contribution of supply chain 
+emissions to the overall footprint in Tanzania fell from 82% to 76%. 
+This consistent reduction seems driven by an 8 to 9-fold divergence 
+between the average carbon intensity per US$ reported by 
+Table 2 
+Calculated carbon intensities for 4 AKHS operations in 3 countries (1 quarter 2021/22).   
+Kisumu-Kenya 
+Tanzania 
+India 
+Mombasa-Kenya 
+1. Top down- Emissions intensity Tier 1 (EE-MRIO) only (KgCO2e/$)) 
+0.446 
+0.787 
+3.935 
+0.446 
+Source- See Appendix G, and (Lenzen et al., 2020) 
+Kenya specific 
+multiplier 
+Africa 
+average  
+India specific 
+multiplier 
+Kenya specific 
+multiplier 
+2. Hybrid- Emissions intensity. Tier 2 + Tier 4 where possible (KgCO2e/$) 
+0.420 
+0.773 
+0.742 
+0.557 
+% Total emissions-in supply chain 
+93% 
+82% 
+81% 
+92% 
+3. Refined Hybrid- Emissions intensity. Tier 2 with Tier 3 and Tier 4 where possible 
+(KgCO2e/$) 
+0.329 
+0.586 
+0.721 
+0.450 
+% Tier 2 spending refined to Tier 3 
+21% 
+30% 
+6% 
+21% 
+% Total emissions-in supply chain 
+91% 
+76% 
+81% 
+90%  
+Fig. 2. AKDN Supply chain carbon emissions split by country and spend category/cost code, calculated using spending data for Q4 2020. (Fig. 2 data is supplied in 
+Appendix I). 
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+6
+pharmaceutical suppliers and the equivalent multiplier from the UK 
+DEFRA data (Appendix F). This is explored further in the limitations 
+section. 
+4. Discussion 
+4.1. Comparison between AKDN results and ‘Top down’ Tier 1 footprint 
+estimates. 
+Before we chose to use the EE-MRIO multiplier data from Lenzen for 
+our Tier 1 approach, Lenzen’s data was cross-referenced with data from 
+(Pichler et al., 2019) and (Arup and HCWH, 2019). Data for 39 countries 
+was available, or could be derived from, two or three of these sources. 
+While country-level carbon footprints showed variation between these 3 
+sources, they were mostly consistent in scale (Appendix A and 
+Appendix B). There were a few notable exceptions where emissions in­
+tensities for countries derived from these sources showed a high level of 
+divergence. Lenzen calculated significantly higher footprint values for 
+Russia, India, Japan, Slovakia, Brazil, and Spain, while Pichler calcu­
+lated a significantly higher footprint for China. Lenzen suggests that 
+these variations might be due to differences in the healthcare expendi­
+ture data used in each case. Lenzen also considered all GHGs, up to the 
+year 2015, whereas Pichler et al only considered carbon dioxide. 
+The dataset published by Lenzen et al had the largest number of data 
+points, covering 66 countries, including 9 lower-middle-income coun­
+tries. None of the papers provided any data for LICs. To maximise 
+coverage in both GHGs and LMICs, Lenzen’s figures were chosen for Tier 
+1 scoping. 
+Where comparison was possible, (Table 2) emissions intensities 
+based on top-down EE MRIO Tier 1 data did appear to show some level 
+of agreement with our hybrid and refined hybrid results. 
+While there appeared to be a reasonable concordance between the 
+carbon intensities calculated bottom up and top down for Tanzania and 
+Kenya, a significant divergence was noted between our calculated car­
+bon intensity for operations in India and the data from Lenzen’s work. 
+Lenzen reported a carbon footprint for healthcare in India of 
+289MtCO2e, however (Pichler et al., 2019) calculated this as 74MtCO2 
+and (Arup and HCWH, 2019) calculated a footprint of 37.2MtCO2 
+(Appendix A). 
+Lenzen’s figures for healthcare expenditure in India in 2015 
+($73,330 M) matched reasonably well with WHO figures for the same 
+year ($77,190 M) (WHO, 2015). Applying Lenzen’s expenditure figure 
+to Pichler’s emissions data would suggest a carbon intensity for 
+healthcare in India of around 1.01KgCO2/$. The same calculation with 
+Arup & HCWH emissions data would suggest an intensity of 0.51KgCO2/ 
+$. 
+This suggests that the mismatch between our hybrid and refined 
+hybrid carbon intensities for AKHS India’s operations and Lenzen’s top- 
+down intensity figure may be the result of some aspect of Lenzen’s 
+calculations for India, rather than a systematic issue with our foot­
+printing approach. 
+For AKHS operations in Kisumu and Mombasa, the differences be­
+tween the top-down carbon intensities from Lenzen’s work for Kenya 
+and the intensities calculated using our hybrid and refined hybrid ap­
+proaches, serves to highlight the potential for variations in carbon in­
+tensity between similar operations in the same country. 
+Both operations include a small hospital of similar size, each with an 
+associated network of primary care facilities. For Kisumu this primary 
+care network comprises around 62% of the floor area, compared to 52% 
+for Mombasa. The climate in Mombasa is consistently hotter than 
+Kisumu, requiring substantially more electricity consumption for cool­
+ing. Data provided from 2019 also suggests that around 26% more pa­
+tients are treated each year in the Mombasa hospital and its outreach 
+network. It is probable that these variables contribute to the overall 
+differences in carbon intensity between these 2 otherwise similar 
+operations. 
+For individual healthcare providers, top-down only approaches, such 
+as those used to footprint national healthcare systems, may be a useful 
+starting point to gain an idea of the scale of their emissions. However, 
+national averages cannot represent the diverse carbon intensities of in­
+dividual providers in a country. Neither do these help providers in tar­
+geting emissions hotspots or in tracking efforts to address these. In some 
+cases, top down only methodologies also seem to generate very different 
+results from more granular hybrid models (see Table 2). 
+4.2. Hybrid footprint 
+Our hybrid footprint relied on the application of emissions intensities 
+from the UK. The discussion of the benefits and limitations of this 
+approach are covered in Section 5. 
+While we have characterised levels of footprint data quality with a 
+Tier 1–4 ranking, in principle, our hybrid approach is similar to that 
+used by the NHS (NHS England, 2020; Tennison et al., 2021). 
+Studies from (Lenzen et al., 2020; Arup and HCWH, 2019; Pichler 
+et al., 2019), based on EE-MRIO, suggest that in excess of 70% of the 
+GHG emissions in healthcare may be attributed to the supply chain. The 
+most recent data from the NHS in England has put the figure at 66% 
+(NHS England, 2020), while (Wu, 2019) identified 84% from ‘Purchased 
+goods and services’ for the Chinese healthcare sector. For the Australian 
+healthcare system, (Malik et al., 2018) calculated that 90% of the carbon 
+footprint stemmed from indirect CO2 emissions due to purchases be­
+tween the different economic sectors that fed into the health-care sector. 
+The results of our initial work in Q4 2020 (Appendix I), suggested 
+that the percentage of emissions attributed to the supply chain in LMICs 
+may follow a similar pattern, with 73% to 97% of emissions (average 
+86%) sitting in the supply chain. 
+The percentage split between supply and non-supply chain emissions 
+provided some initial confidence that, as well as its potential use in 
+identifying emissions hotspots, the UK factor set may not be an entirely 
+unreasonable proxy for what the GHG protocol describes as ‘secondary 
+source’ data. As such, factors derived from the UK data set, may be 
+suitable for use in a hybrid footprint, especially if effort were applied to 
+further refine the footprint with supplier specific data. 
+The results of our hybrid footprint show a potential divergence from 
+the evidence in other published literature with regards to the proportion 
+of the supply chain attributed to pharmaceuticals and medical equip­
+ment. The average of 86% of the footprint allocated to pharmaceuticals 
+and medical products is a much higher proportion than reported else­
+where. For example, across the 10 health operations of the AKDN that 
+reported pharmaceuticals expenditure (Excluding the very small oper­
+ation in Syria) pharmaceutical made up 17–52% of the total footprint, 
+with an average of 36%. By contrast (Eckelman et al., 2018) found 
+pharmaceuticals making 26% of the total life cycle healthcare GHG 
+emissions for Canada, 10% for the US and 18% for Australia (NHS En­
+gland, 2020) attributed 20% to medicines and chemicals. 
+This divergence could be in part down to the services that are picked 
+up within the footprinting boundaries of top-down work. National level 
+footprints calculated with EE-MRIO methodologies tend to look at entire 
+healthcare systems, while our tightly focussed studies look specifically 
+at primary and hospital care. National top-down methodologies may 
+also pick up additional aspects of public health provision, ambulance 
+services, national and regional administration or other services which 
+may be less likely to show a heavy use of pharmaceuticals and medical 
+products. The footprint for the NHS, also includes staff commuting and 
+patient travel. 
+Additional comparative work, using country specific Tier 2 factors 
+for the countries we have studied, could help to further validate our 
+chosen approach to use a UK factor set as a proxy. 
+4.3. Refined hybrid footprint 
+Invariably, as we refined our hybrid footprints with data from our 
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+7
+actual suppliers, we found that AKDN healthcare operations footprints 
+and their resulting carbon intensities fell (Table 2). Generally, the more 
+substantial the proportion of the footprint refined with suppliers’ data, 
+the larger the fall. 
+The companies for which Scope 1,2 and 3 data could be sourced had 
+a collective annual revenue of $923Bn. This included 10 pharmaceutical 
+sector companies with a combined annual revenue of $464.5Bn. 
+Together these 10 companies constitute around 37% of the $1.27 trillion 
+global pharma market (Statista, 2021). 
+The Tier 2 carbon intensity for ‘Medicines and medical products’, 
+derived from UK DEFRA data (converted to US$ at 0.75 US$ per £), was 
+1.936kgCO2e/$ (Appendix D). Most multinational suppliers in the 
+‘Medicines and medical product’ category, in the supply chain for the 
+health operations of the AKDN appear to perform substantially better 
+than this. 
+For the 10 pharmaceutical product suppliers, the average reported 
+full carbon intensity, including value chain, was 0.202kgCO2e/$. If 
+weighted by annual revenue, this would suggest a carbon intensity of 
+0.1799kgCO2e/$ for a ‘medicines’ sub-category (Appendix H). 
+The evidence so far suggests that the sector wide carbon intensities 
+for healthcare products from DEFRA, calculated using a top-down (EE- 
+MRIO) methodology are 8 to 9 times larger than the Scope 1,2 and 3 
+emissions intensities derived from suppliers’ own data. 
+This divergence underlines the need, expressed in the GHG protocol 
+scope 3 guidance, for those calculating carbon footprints for their supply 
+chains to look beyond EE-MRIO only approaches. 
+While a definitive explanation for the observed divergence would 
+require further research, a number of key variables could have a sig­
+nificant impact.  
+• The medicines and medical products companies that make up the 
+rest of the global market, may have far higher carbon intensities than 
+those of the multinationals reviewed.  
+• Top-down EE-MRIO methodologies and bottom-up methodologies 
+used by industry may use different emissions boundaries. A broader 
+basket of emissions may be allocated to individual sectors in EE- 
+MRIO multipliers, than are covered under healthcare product man­
+ufacturers GHG reporting, especially under upstream scope 3. 
+• There is a 1–2-year time-lag between the EE-MRIO emissions in­
+tensities that we have used and the annually published data from 
+suppliers. This may mean that some emissions reductions from 
+suppliers have yet to show in the EE-MRIO data.  
+• The relatively lower price of products negotiated by the NHS in the 
+UK market may make healthcare products look more carbon inten­
+sive in the UK, than global averages. 
+It is possible to evaluate, in outline, the potential impact of the last of 
+these 4 points. Work by the US Ways and Means Committee in 2019 (The 
+Committee on Ways and Means, United States Congress, 2019) sug­
+gested that in the UK, pharmaceutical costs were on average 30% less 
+than in other countries. In this case, price difference alone would be 
+insufficient to explain an 8 to 9-fold divergence in carbon intensity per 
+unit of currency. Due to the volumes of products the NHS purchases, the 
+NHS supply chain for these types of products may also be weighted to­
+wards the larger multinational companies, whose carbon intensity data 
+is already captured above. 
+The impact of this apparent divergence may be significant for the 
+NHS in England (Tennison et al., 2021; NHS England, 2020) and other 
+national footprints relying on EE-MRIO factors for their supply chain 
+calculations. For example, the most recent data from the NHS (NHS 
+England, 2020) shows that the carbon impact of medicines and medical 
+equipment makes up 30% of the NHS carbon footprint. If similar EE- 
+MRIO factors have been used and multinational suppliers published 
+scope 3 carbon emissions are correct, then the carbon footprint for 
+medicines and medical products in the NHS supply chain (and indeed 
+that of other national footprints) may be substantially less than is 
+currently indicated. 
+That it has been possible to source or derive reasonably comparable 
+carbon intensities for suppliers (Appendix F), should be encouraging to 
+those looking to engage with their supply chain. Many suppliers are 
+already taking action. The evidence that the data provided by suppliers 
+has thus far resulted in reductions in AKDN’s calculated supply chain 
+emissions, should provide an additional incentive for other organisa­
+tions, and those building a national picture of healthcare carbon foot­
+prints, to use a refined hybrid approach. 
+However, such downward trends from improving data resolution 
+cannot be assumed for the future. It is possible, that once carbon in­
+tensity data becomes available for smaller national and regional sup­
+pliers, that these prove to be far more carbon intensive than the 
+multinationals for whom data is currently available. In this case, supply 
+chain footprints for AKDN, and any other organisation using this 
+approach, may climb again. 
+5. Limitations 
+Due to the hybrid approach combining multiple bottom-up datasets 
+with top-down MRIO-based results, it was not feasible to conduct a 
+comprehensive uncertainty analysis. However, the limitations of our 
+methodology are discussed in some detail below. 
+5.1. Tier 1 approach 
+Relying on a single source for the Tier 1 multipliers presents a po­
+tential limitation. The selection of Lenzen’s data was made after criti­
+cally reviewing 3 possible options. As Tier 1 data was only used as a 
+point of reference, this level of uncertainty was deemed acceptable. 
+There was a high variance in the country-level carbon intensity data 
+within the geographic and economic groups (Appendix G). Given the 
+high level of uncertainty in the averages that we used where country 
+specific data was absent, it was expected that the Tier 1 approach would 
+only be useful in providing an indication of scale and a level of valida­
+tion for more granular analysis. 
+Further research to generate additional top-down data for lower- 
+middle and low-income countries could potentially improve confidence 
+in an approach reliant on regional or economic group averages. 
+5.2. Tier 2 approach 
+The GHGP guidelines for Scope 3 accounting suggest undertaking 
+initial scoping and hot spotting activity for supply chain emissions using 
+‘Secondary sources’ or proxy data (WRI and WBCSD, 2013). The GHGP 
+guidelines further suggest that this data should then be refined with data 
+from an organisation’s own suppliers. 
+Factors based on EE-MRIO are classed in the GHG Protocol as low 
+resolution ‘Secondary data’ (WRI and WBCSD, 2013). Average carbon 
+intensities for industry sectors, or carbon intensities of specific classes of 
+consumer products, can help identify emissions hotspots in a healthcare 
+providers supply chain, however, do not represent the carbon intensity 
+of an organisation’s specific suppliers or products. 
+High-level EE-MIRO factors or ‘multipliers’ are available pre- 
+calculated for many countries. For many EU, OECD and HICs, these 
+factors are available for free online (Stadler et al., 2015). Where factors 
+are not readily available, organisations wishing to calculate their own 
+supply chain emissions may need to purchase or commission country- 
+specific factor sets. This cost creates a potential barrier to organisa­
+tions in LMICs. 
+This cost may also be difficult to justify, in light of the GHG protocol 
+guidance that organisations should look to deploy more granular 
+methods than EE-MRIO alone. 
+The average carbon intensity of products and industry sectors, varies 
+between nations. This is due to differences in the balance between im­
+ports versus domestic production and the carbon intensity of domestic 
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+8
+industry sectors, versus that of industry sectors in the countries of origin 
+for imported products. 
+While the actual emissions intensity of industry sectors, products and 
+services vary between nations, we adopted a working assumption that 
+the relative carbon intensities of products and sectors would probably be 
+fairly consistent. For example, pharmaceuticals and food would be 
+carbon intensive in all countries, while telecoms and financial services 
+would be less so. This assumption is tested in Appendix J. 
+On this basis, rather than sourcing 8 country specific datasets for our 
+Tier 2 footprinting, we opted to trial an approach to emissions hotspot 
+identification that used the freely available and easily accessed 2017 UK 
+DEFRA set of product and service level multipliers, as a ‘secondary 
+source’ (University of Leeds, 2020). 
+The expectation was that using a UK factor set may underestimate 
+emissions, due to the low carbon intensity of UK industry sectors, rela­
+tive to intensities indicated by the ‘Rest of the World’ multipliers in the 
+EORA26 data (Appendix J). 
+Further consideration was given to the potential sensitivity of the 
+most common areas of healthcare spend to the use of a UK factor set as a 
+proxy. In particular, there was a closer evaluation of the potential im­
+pacts on calculations relating to pharmaceuticals, and medical 
+consumables. 
+Many pharmaceutical and medical products consumed by healthcare 
+organisations are common globally. These products are often purchased 
+from the same small group of multinational companies. As such, a 
+working assumption was made that the carbon intensity per unit of 
+product, (based on active ingredients, manufacture, packaging, excipi­
+ents, shipping and so on) may be fairly similar between nations. On the 
+other hand, the carbon intensity per unit of product for UK and EU 
+manufactured healthcare products may tend to be lower compared to 
+the rest of the world as suggested by the EORA ‘Manufacturing & 
+recycling’ data. 
+The use of a UK factor for medical products, if based on a high level of 
+EU manufacturing, could result in an underestimate of emissions for 
+spend on products manufactured in LMICs. 
+However, as the UK has a largely centralised procurement system for 
+healthcare products, the average costs of healthcare products in the UK 
+may be relatively lower than the rest of the world, increasing the 
+apparent carbon intensity per unit of currency for these products in a UK 
+factor set. 
+In this case the use of a UK factor for medical products could result in 
+an overestimate of emissions for products manufactured in LMICs. 
+Work by the Committee on Ways and Means of the United States 
+Congress in 2019 showed the relative per capita spending on a selection 
+of 79 drugs for 12 OECD countries (The Committee on Ways and Means, 
+United States Congress, 2019). This showed that the average spending 
+on these drugs across the 12 countries was $675.25 per capita per year, 
+while in the UK the equivalent spending was around 30% less at 
+$469.00. If the per capita costs for drugs in our 8 countries were similar 
+to, or greater than, the average across these 12 countries, the use of a UK 
+factor could in theory overestimate the carbon intensity of pharma­
+ceuticals by more than 30%. 
+Potential error also existed in the use of exchange rates. To allow the 
+UK multipliers to be used, AKDN spend in local currencies and the UK 
+multipliers needed to be converted to US$. 
+A further potential source of error is in the alignment of AKDN 
+spending categories with the UK EE-MRIO factor set. Assumptions in 
+alignment are covered in Appendix C. 
+While the approach to our Tier 2 level of footprinting had clear risks 
+in terms of accuracy, if it proved to be effective, at least in identifying 
+emissions hotspots, then effort could be more usefully focussed on 
+sourcing specific carbon intensities for the suppliers in those identified 
+hotspot areas (Tier 3 data). As such, the level of potential error seemed 
+tolerable for hot-spotting and a high-level estimate. 
+5.3. Tier 3 approach 
+Tier 3 footprinting also presented some limitations, though far less 
+significant than Tier 2. While effort was made to ensure that a consistent 
+approach was taken to generating supplier carbon intensities, we were 
+reliant on accurate and complete information being reported by sup­
+pliers. Appendix E and F provide supplier data and more detail on the 
+approach taken, including data that justifies the exclusion of Scope 3 
+downstream emissions categories. 
+For 3 suppliers revenue needed to be converted from the currency 
+used in their annual financial reports to US$ using the annual average 
+exchange rate for the reporting year. 
+It is also possible that the multinational suppliers for whom data was 
+available represented the lowest carbon intensities in the market. 
+5.4. Tier 4 approach 
+Tier 4 footprinting followed GHGP standards. Full data sets were 
+available for each country, no extrapolation was necessary. Emissions 
+factors and the data provided from healthcare operations were credible, 
+complete, and up to date. Data on energy, fuel, waste, water, business 
+travel, anaesthetic gases, refrigerants, respiratory inhalers, and where 
+possible building materials was collected directly from operational 
+teams who entered data into the AKDN carbon management tool. Data 
+provided quarterly was quality assured in country by a national lead. 
+National data was then submitted centrally, and quality assured again by 
+the author. 
+The only exclusions from Tier 4 were the Scope 3 emissions associ­
+ated with ‘well to tank’ and ‘transmissions and distribution’ for fuels and 
+electricity and the carbon impacts of water use. 
+6. Conclusion 
+6.1. Key learning points  
+• The carbon intensity per US$ of healthcare in LMICs is relatively 
+high, and healthcare in LMICs needs to grow rapidly. The social, 
+economic, and environmental benefits of decarbonising healthcare 
+are potentially high in LMICs.  
+• Very few healthcare carbon footprints are available for LMICs and 
+none for LICs. Where these are available, they are based on top-down 
+EE-MRIO approaches.  
+• There is no perfect way to calculate GHG emissions in the healthcare 
+supply chain. At an operational level, EE-MRIO approaches provide 
+little value beyond highlighting hotspots.  
+• Carbon footprinting scope 1 and 2 emissions for healthcare in LMICs 
+is not necessarily any more difficult than in any other part of the 
+world. One key barrier to date has been a lack of access to tools, data, 
+and expertise. This paper shows that this is a resolvable challenge.  
+• Carbon footprinting the healthcare supply chain in LMICs and 
+higher-income countries alike, with sufficient granularity to effec­
+tively target and measure the impact of supplier engagement, is now 
+entirely possible. The need to rely on EE-MRIO models is declining.  
+• Many large healthcare suppliers now publish data on their carbon 
+emissions, and all of these suppliers have far lower reported carbon 
+intensities than suggested by EE-MRIO models. 
+6.2. Recommendations for healthcare providers 
+All healthcare providers in LMICs should consider calculating a 
+carbon footprint, covering both direct and indirect emissions, and 
+identify opportunities to reduce emissions. Carbon reduction is usually 
+associated with energy or resource efficiency, as such can lead to direct 
+or indirect cost savings. 
+To achieve this, healthcare providers in LMICs should consider 
+making use of the freely available carbon management tool and 
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+9
+associated guide developed by AKDN (AKDN, 2021a,b). This Tool is 
+currently being highlighted by the World Health Organisation for use by 
+healthcare operations in its Africa, and Eastern Mediterranean regions. 
+In generating a carbon footprint for the supply chain, all healthcare 
+organisations in LMICs and higher-income countries alike should look to 
+go beyond EE-MRIO methodologies, as these have limited practical use 
+on their own at an operational level. Organisations should request that 
+larger suppliers provide carbon footprints, carbon intensities, targets, 
+and annual progress reports. Smaller national or regional suppliers can 
+be asked to calculate and report on their basic scope 1 and 2 emissions 
+using the AKDN carbon management tool or another equivalent 
+resource. 
+Healthcare organisations should challenge their suppliers to cut 
+emissions, where possible looking to procure from suppliers that are 
+actively and successfully doing so. This is especially critical when 
+choosing suppliers of pharmaceuticals and medical products. 
+The healthcare operations of AKDN found that the refined hybrid 
+approach, and the excel tool developed to implement it, simplified 
+footprinting for supply chain and non-supply chain areas, avoiding the 
+need for external consultants and enabling a rapid focus on the areas of 
+supply chain where most impact was possible. 
+AKDN aimed to reduce uncertainties in pulling together data from a 
+mixture of sources of differing resolutions. This has been achieved 
+through applying a 4-tier hierarchy to data quality, allowing the quality 
+of AKDNs footprint to be improved sequentially, as additional data 
+became available. 
+Critical analysis of the outputs of AKDNs footprinting work suggests 
+that the refined hybrid approach provided a sufficiently robust basis for 
+targeting supplier engagement. It also appears to provide a step up in 
+terms of accuracy vs top-down only methodologies. Footprinting at this 
+level provides an organisation with the opportunity to target and 
+actively select suppliers on the basis of emissions intensity, or their 
+progress in carbon reduction. This has the potential to increase market- 
+incentives for suppliers to engage in carbon reduction measures. 
+Full scope 1,2 and 3 footprints for suppliers are increasing in avail­
+ability, quality, and consistency. However, unless procurement policies 
+and supplier engagement from healthcare providers in LMICs align with 
+those in HICs already acting in this area, suppliers may be tempted to 
+reduce emissions for operations in HICs by redirecting their higher 
+carbon products to LMICs. 
+Some multinational healthcare suppliers have larger annual reve­
+nues than the entire GDP of smaller LMICs. To reduce healthcare supply 
+chain emissions globally, healthcare providers in LMICs and higher-in­
+come countries will need to build a uniform approach to applying pur­
+chasing power and to drive down supplier’s carbon emissions. All 
+suppliers will ultimately need to be incentivised and supported to 
+measure, report, and reduce their emissions. 
+6.3. Recommendations for further work 
+Several areas for further study have been identified throughout this 
+paper, these include.  
+• Additional published bottom-up footprints are needed for healthcare 
+providers in LMICs. These could be produced using the AKDN tool or 
+other similar resources.  
+• Additional published top-down EE-MRIO footprints are needed for 
+healthcare sectors in LMICs, especially LICs which are currently 
+absent from the literature.  
+• Generation (and publication for free access) of EE-MRIO sector 
+emissions intensities/ multipliers for LMICs 
+• Additional comparative work, using country specific EE-MRIO fac­
+tors for the countries we have studied, to assess the impact on ac­
+curacy of the use of a UK factor set as a proxy.  
+• Further work to establish why there is such an apparent divergence 
+between top down EE-MRIO intensities for pharmaceuticals and 
+medical products and the carbon intensities calculated by multina­
+tional suppliers of these products.  
+• Additional independent research on the full Scope 1,2 and 3 carbon 
+intensity of healthcare suppliers, particularly smaller national, 
+regional or LMIC based suppliers that currently do not publish full 
+emissions data.   
+To receive the latest version of AKDN’s Health Carbon Management Tool and the 
+user’s Guide, contact: healthcarbonfootprint@akdn.org.  
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+The data that has been used is confidential. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.clscn.2023.100109. 
+References 
+AKDN. (2021). AKDN Health Carbon Management Tool. Geneva: AKDN. 
+AKDN. (2021). Calculating the carbon footprint of the Aga Khan Health Services. Geneva: 
+AKDN. 
+AKDN. (2022, March 2). Retrieved from AKDN Environment and Climate Commitment 
+Statement: https://d1zah1nkiby91r.cloudfront.net/s3fs-public/2022.03.02_akdn_e 
+cc_commitment_statement-_2_march_2022-_final_approved_1.pdf. 
+Arup & HCWH. (2019). Healthcare’s-climate-footprint. 
+DEFRA & DBEIS. (2021). UK Government GHG Conversion Factors for Company 
+Reporting. (1). London: UK Government. Retrieved from https://www.gov.uk/gov 
+ernment/publications/greenhouse-gas-reporting-conversion-factors-2021. 
+Eckelman, M., Huang, K., Lagasse, R., Senay, E., Dubrow, R., Sherman, J., 2020. Health 
+care pollution and public health damage in the United States: an update. Health Aff 
+39, 2071–2209. https://doi.org/10.1377/hlthaff.2020.01247. 
+Eckelman, M.J., Sherman, J.D., MacNeill, A.J., Patz, J.A., 2018. Life cycle environmental 
+emissions and health damages from the Canadian healthcare system: an economic- 
+environmental-epidemiological analysis. PLoS Med. 15 (7), e1002623. 
+England, N.H.S., 2020. Delivering a ‘Net Zero’ National Health Service. NHS England, 
+London.  
+IEA. (2020). Emissions factors 2020. Paris: IEA. Retrieved 2020, from https://prod.iea. 
+org/data-and-statistics/data-product/emissions-factors-2021#emissions-factors. 
+Lenzen, M., Malik, A., Li, M., Fry, J., Weisz, H., Pichler, P.-P., Chaves, L.S.M., Capon, A., 
+Pencheon, D., 2020. The environmental footprint of health care: a global assessment. 
+Lancet Planet. Health 4 (7), e271–e279. 
+Malik, A., Lenzen, M., McAlister, S., McGain, F., 2018. The carbon footprint of Australian 
+health care. Lancet Planet. Health 2, e27–e35. https://doi.org/10.1016/s2542-5196 
+(19)30192-5. 
+Nansai, K., Fry, J., Malik, A., Takayanagi, W., Kondo, N., 2020. Carbon footprint of 
+Japanese health care services from 2011 to 2015. Resour. Conserv. Recycl. 152, 
+104525 https://doi.org/10.1016/j.resconrec.2019.104525. 
+IPCC. (2020, Nov). IPCC Emissions Factor Database. Retrieved from IPPC: https://www.ip 
+cc-nggip.iges.or.jp/EFDB/downloads.php. 
+Pichler, P.-P., Jaccard, I.S., Weisz, U., Weisz, H., 2019. International comparison of 
+health care carbon footprints. Int. Compar. Health Care Carbon Footprints 14 (6), 
+064004. 
+Rasheed, N.F., Baddley, J., 2021. Decarbonising healthcare in low and middle income 
+countries: potential pathways to net zero emissions. BMJ 375 (n1284). https://doi. 
+org/10.1136/bmj.n1284. 
+Stadler, K., Lonka, R., Moran, D., Pallas, G., & Wood, R. (2015). The Environmental 
+Footprints Explorer - a database for global sustainable accounting. Retrieved December 
+21, 2021, from https://www.environmentalfootprints.org/explorer. 
+Statista. (2021). Global pharmaceutical industry- key figures. Retrieved December 19, 2021, 
+from https://www.statista.com/topics/1764/global-pharmaceutical-industry/ 
+#dossierKeyfigures. 
+Tennison, I., Roschnik, S., Ashby, B., Boyd, R., Hamilton, I., Oreszczyn, T., Owen, A., 
+Romanello, M., Ruyssevelt, P., Sherman, J.D., Smith, A.Z.P., Steele, K., Watts, N., 
+Eckelman, M.J., 2021. Health care’s response to climate change: a carbon footprint 
+assessment of the NHS in England. Lancet Planetary Health 5 (2), e84–e92. 
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
+Cleaner Logistics and Supply Chain 7 (2023) 100109
+10
+The Committee on Ways and Means, United States Congress. (2019). A Painful Pill to 
+Swallow U.S. vs. International Prescription Drug Prices. Washington D.C. 
+University of Leeds, 2020. UK Footprint Results (1990–2017). University of Leeds, Leeds.  
+WHO. (2015). Global Health Expenditure Database. Retrieved June 2, 2022, from https://a 
+pps.who.int/nha/database/ViewData/Indicators/en. 
+WRI & WBCSD, 2004. A Corporate Accounting and Reporting Standard (REVISED, 
+EDITION ed. World Resources Institute and World Business Council for Sustainable 
+Development, Geneva.  
+WRI & WBCSD. (2004). Retrieved from GHGProtocol.org: https://ghgprotocol.org/sites 
+/default/files/standards/ghg-protocol-revised.pdf. 
+WRI & WBCSD. (2013). Corporate Value Chain (Scope 3) Accounting and Reporting 
+Standard. USA. 
+Wu, R., 2019. The carbon footprint of the Chinese health-care system: an 
+environmentally extended input-output and structural path analysis stud. Lancet 
+Planet Health 3, e413–e419. 
+J. Baddley and F.N. Rasheed                                                                                                                                                                                                                 
