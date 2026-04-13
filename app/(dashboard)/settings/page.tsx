@@ -150,7 +150,7 @@ export default function SettingsPage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="base-year">Base Year</Label>
-                    <Input id="base-year" defaultValue={mockOrganisation.baseYear.toString()} />
+                    <Input id="base-year" defaultValue="2022" />
                   </div>
                 </div>
 
