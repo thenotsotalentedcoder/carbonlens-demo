@@ -1,4 +1,4 @@
-import { Leaf } from "@phosphor-icons/react";
+import { Leaf } from "@phosphor-icons/react/dist/ssr";
 
 export default function OnboardingLayout({
   children,
