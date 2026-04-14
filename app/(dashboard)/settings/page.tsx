@@ -196,7 +196,7 @@ export default function SettingsPage() {
                       <div>
                         <p className="font-medium">{facility.name}</p>
                         <p className="text-sm text-muted-foreground">
-                          {facility.type} | {facility.area.toLocaleString()} m²
+                          {facility.type} | {facility.areaSqm.toLocaleString()} m²
                         </p>
                       </div>
                       <div className="flex items-center gap-2">
